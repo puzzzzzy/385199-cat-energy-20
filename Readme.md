@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Шкаленко](https://up.htmlacademy.ru/adaptive/20/user/385199).
-* Наставник: `Неизвестно`.
+* Наставник: [Анатолий Пазюк](https://up.htmlacademy.ru/adaptive/20/user/380487).
 
 ---
 
