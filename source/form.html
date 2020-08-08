@@ -16,25 +16,73 @@
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <ul class="main-nav__list site-list">
-          <li сlass="site-list__item site-list__item--active">
-            <a>Главная</a>
+          <li сlass="site-list__item">
+            <a href="index.html">Главная</a>
           </li>
           <li сlass="site-list__item">
             <a href="catalog.html">Каталог продукции</a>
           </li>
-          <li сlass="site-list__item">
-            <a href="form.html">Подбор программы</a>
+          <li сlass="site-list__item site-list__item--active">
+            <a>Подбор программы</a>
           </li>
         </ul>
       </nav>
   </div>
   </header>
   <main class="page-main">
-    <h1></h1>
-
-
-
-
+    <h1 class="page-main__title">Подбор программы</h1>
+    <p>Заполните анкету, и мы подберем <br>программу питания для вашего кота</p>
+    <form class="form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="form__data-cat">
+        <h2 class="visually-hidden">Укажите данные кота</h2>
+        <label class="form__label">
+          Имя:* <input  class="form__input" type="text" name="name" placeholder="Барсик" autofocus required><br>
+        </label>
+        <label class="form__label">
+          Вес (кг):* <input  class="form__input" type="text" name="weight" placeholder="7" required><br>
+        </label>
+        <label class="form__label">
+          Возраст (лет): <input  class="form__input" type="text" name="year" placeholder="7">
+        </label>
+      </div>
+      <div class="form__choice-programs">
+        <h2 class="visually-hidden">Выберите програму</h2>
+        <label class="form__label">
+          <input  class="form__radio" type="radio" name="programs" value="slimming" checked>Похудение<br>
+        </label>
+        <label class="form__label">
+          <input  class="form__input" type="radio" name="programs" value="weight gain">Набор массы<br>
+        </label>
+        <label class="form__label">
+          <input  class="form__input" type="radio" name="programs" value="I don't know">Не знаю (нужен ваш совет)
+        </label>
+      </div>
+      <div class="form__data-contact">
+        <h2 class="form__title">Контактные данные (владельца кота)</h2>
+        <div class="form__title-decor"></div>
+        <label class="form__label">
+          E-mail:* <input  class="form__input" type="email" name="email" placeholder="kuklachev@gmail.com" required><br>
+        </label>
+        <label class="form__label">
+          Телефон:* <input  class="form__input" type="tel" name="tel" placeholder="8 (960) 900-60-90" required><br>
+        </label>
+      </div>
+      <div class="form__comment">
+        <h2 class="form__title">Комментарий</h2>
+        <div class="form__title-decor"></div>
+        <textarea class="form__textarea" name="textarea" placeholder="Расскажите о всех повадках кота"></textarea>
+      </div>
+      <div class="form__comment">
+        <h2 class="form__title">Дополнительно</h2>
+        <div class="form__title-decor"></div>
+        <label class="form__label"><input type="checkbox" name="sweetener" checked>Сахорозаменитель<br></label>
+        <label class="form__label"><input type="checkbox" name="water">Питьевая вода<br></label>
+        <label class="form__label"><input type="checkbox" name="milk">Молоко<br></label>
+        <label class="form__label"><input type="checkbox" name="vitamins">Витамины</label>
+      </div>
+      <button class="form_button" type="submit">Отправить заявку</button>
+      <p class="form__remark">* — Обязательные поля</p>
+    </form>
   </main>
   <footer>
     <section class="partnership">
@@ -54,10 +102,10 @@
             <a href="https://vk.com/htmlacademy" class="social_link"><img class="social__vk" src="https://via.placeholder.com/150x150" width="23" height="16" alt="Вконтакте"></a>
           </li>
           <li class="social__item">
-            <a href="https://www.instagram.com/htmlacademy" class="social_link"><img class="socials__instagram" src="https://via.placeholder.com/150x150" width="16" height="16" alt="Инстаграм"></a>
+            <a href="https://www.instagram.com/htmlacademy" class="social_link"><img class="social__instagram" src="https://via.placeholder.com/150x150" width="16" height="16" alt="Инстаграм"></a>
           </li>
           <li class="social__item">
-            <a href="https://www.facebook.com/htmlacademy" class="social_link"><img class="socials__facebook" src="https://via.placeholder.com/150x150" width="22" height="22" alt="Фейсбук"></a>
+            <a href="https://www.facebook.com/htmlacademy" class="social_link"><img class="social__facebook" src="https://via.placeholder.com/150x150" width="22" height="22" alt="Фейсбук"></a>
           </li>
         </ul>
         <div class="copyright">
